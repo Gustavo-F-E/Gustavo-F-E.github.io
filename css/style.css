@@ -1,0 +1,36 @@
+body {
+    /* color del fondo*/
+    background-color: coral;
+    /* color de la fuente*/
+    color: rgba(44, 40, 39, 0.938);
+    margin-left: 1em;
+    padding-left: 11em;
+}
+
+h1 {
+    color: blue;
+    font-size: 50px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+ul.navbar{
+    list-style: none;
+    position: absolute;
+    padding: 0%;
+    margin: 0%;
+    top: 2em;
+    left: 1em;
+    width: 9em;
+}
+/*porque los clas se llaman "class".... porque se pueden utilizar en varios grupos
+a diferencia de los "class", los "id son unicos
+los "id se utilizan para diferenciar elementos del mismo tipo*/
+ul.navbar li{
+    background-color: beige;
+    margin: 0.5em 0;
+    padding: .3em;
+    border-right: 1em solid;
+}
+a link{
+text-decoration: none;
+color: blue;
+}
